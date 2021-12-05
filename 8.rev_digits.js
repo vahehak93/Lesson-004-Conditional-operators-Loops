@@ -8,7 +8,7 @@ arr2 = []
 let i = arr.length-1
 
 for (i; i < arr.length && i >= 0; i--) {
-    if (str_num.length <= 1) {
+    if (str_num.length == 1) {
         console.log(num)
     } else {
         arr2.push(arr[i]) 
